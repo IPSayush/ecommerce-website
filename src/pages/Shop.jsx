@@ -1,9 +1,9 @@
 import React from "react";
-import Hero from "../components/hero/hero";
-import Popular from "../components/popular/popular";
-import Offers from "../components/offers/offers";
+import Hero from "../components/hero/Hero.jsx";
+import Popular from "../components/popular/Popular.jsx";
+import Offers from "../components/offers/Offers.jsx";
 import NewCollections from "../components/newcollections/Newcol.jsx";
-import NewsLetter from "../components/newsletter/newsltr";
+import NewsLetter from "../components/newsletter/Newsltr.jsx";
 
 
 const Shop = () => {

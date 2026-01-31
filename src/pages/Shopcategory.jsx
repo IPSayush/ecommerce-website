@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./css/shp-ctg.css";
 import { ShopContext } from "../context/ShopContext.jsx";
 // import drop_down_icon from '../components/assets/dropdown_icon.png';
-import Items from "../components/items/Items.jsx";
+import Items from "./components/items/Items.jsx";
 
 const ShopCategory = (props) => {
   const { all_product } = useContext(ShopContext);

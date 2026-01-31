@@ -1,7 +1,7 @@
 import React from 'react';
 import './newcol.css';
 import new_cts from '../assets/new_collections';
-import Items from '../items/items';
+import Items from '../items/Items.jsx';
 import { useNavigate } from 'react-router-dom';
 
 const NewCollections = () => {

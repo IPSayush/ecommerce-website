@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { ShopContext } from '../context/ShopContext.jsx';
-import Items from '../components/items/items';
+import Items from './components/items/Items.jsx';
 import './css/allpd.css';
 
 const AllProducts = () => {

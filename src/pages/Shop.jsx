@@ -8,15 +8,14 @@ import NewsLetter from "../components/newsletter/newsltr";
 
 const Shop = () => {
   return (
-    <div>
+    <>
       {/* mounting */}
-    
       <Hero />
       <Popular />
       <Offers />
       <NewCollections />
       <NewsLetter />
-    </div>
+    </>
   );
 };
 

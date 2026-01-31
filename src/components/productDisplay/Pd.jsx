@@ -39,10 +39,10 @@ const ProductDisplay= (props) => {
           </div>
           <div className='pd-rgt-prices'>
             <div className='pd-price-old'>
-                ${product.old_price}
+                ₹{product.old_price}
             </div>
             <div className='pd-price-new'>
-                ${product.new_price}
+                ₹{product.new_price}
             </div>
           </div>
           <div className='pd-descrpt'>

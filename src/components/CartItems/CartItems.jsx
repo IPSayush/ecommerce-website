@@ -28,8 +28,8 @@ const CartItems = () => {
                   <p className="title">{e.name}</p>
 
                   <div className="prz">
-                    <p className="np">${e.new_price}</p>
-                    <p className="tp">${e.new_price * safeCartItem[e.id]}</p>
+                    <p className="np">₹{e.new_price}</p>
+                    <p className="tp">₹{e.new_price * safeCartItem[e.id]}</p>
                   </div>
 
                   <p className="crt-quantity">{safeCartItem[e.id]}</p>
@@ -59,7 +59,7 @@ const CartItems = () => {
           <div>
             <div className="crt-total-item">
               <p>SubTotal</p>
-              <p>${getTotalCartAmount()}</p>
+              <p>₹{getTotalCartAmount()}</p>
             </div>
 
             <hr />
@@ -73,7 +73,7 @@ const CartItems = () => {
 
             <div className="crt-total-item">
               <h3>Total</h3>
-              <h3>${getTotalCartAmount()}</h3>
+              <h3>₹{getTotalCartAmount()}</h3>
             </div>
           </div>
 

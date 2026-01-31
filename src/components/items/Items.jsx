@@ -12,10 +12,10 @@ const Items  = (props) => {
 
         <div className='item-price'>
             <div className='new-price'>
-                 ${props.new_price}
+                 ₹{props.new_price}
             </div>
             <div className='old-price'>
-                ${props.old_price}
+                ₹{props.old_price}
             </div>
 
         </div>

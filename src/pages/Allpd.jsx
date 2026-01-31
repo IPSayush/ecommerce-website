@@ -11,15 +11,13 @@ const AllProducts = () => {
   const handleCategoryChange = (event) => {
     setSelectedCategory(event.target.value);
   };
-
-  // Filter products based on selected category
   const filteredProducts = selectedCategory === 'all' 
     ? all_product 
     : all_product.filter(item => item.category === selectedCategory);
 
   return (
     <div className='all-products-page'>
-      <h1>All Products</h1>
+      <h1>All Products</h1> 
       <hr />
 
       {/* Dropdown for category selection */}

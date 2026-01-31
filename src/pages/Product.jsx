@@ -2,8 +2,8 @@ import React, { useContext } from 'react';
 import { ShopContext } from '../context/ShopContext.jsx';
 import { useParams } from 'react-router-dom';
 // import BreadCrumb from '../components/breadcrumbs/bdcrumb';
-import ProductDisplay from '../components/productDisplay/pd';
-import RelatedProducts from '../components/related-pd/relatedpd';
+import ProductDisplay from '../components/productDisplay/Pd.jsx';
+import RelatedProducts from '../components/related-pd/Relatedpd.jsx';
 
 const Product = () => {
   const { all_product } = useContext(ShopContext);
